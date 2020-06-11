@@ -1,0 +1,6 @@
+target
+.idea
+*.iml
+*.bak
+.mvn/wrapper/maven-wrapper.jar
+example-client/src/main/resources/META-INF/wsdl

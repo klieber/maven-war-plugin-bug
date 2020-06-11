@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress XmlUnusedNamespaceDeclaration -->
+<jaxws:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+                xmlns:jaxws="http://java.sun.com/xml/ns/jaxws"
+                xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                version="2.1">
+
+  <jaxws:package name="org.example.client" />
+
+  <jaxws:bindings node="wsdl:definitions/wsdl:types/xsd:schema[@targetNamespace='http://example.org/']">
+    <jaxb:schemaBindings>
+      <jaxb:package name="org.example.client" />
+    </jaxb:schemaBindings>
+  </jaxws:bindings>
+
+</jaxws:bindings>
